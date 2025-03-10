@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nakah Beats</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>Bienvenue sur Nakah Beats</h1>
+        <nav>
+            <ul>
+                <li><a href="#catalogue">Catalogue</a></li>
+                <li><a href="#licences">Licences</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="catalogue">
+        <h2>Mes Beats</h2>
+        <div class="beat">
+            <h3>Beat 1</h3>
+            <audio controls>
+                <source src="beat1.mp3" type="audio/mp3">
+                Ton navigateur ne supporte pas la balise audio.
+            </audio>
+            <button>Acheter</button>
+        </div>
+        <div class="beat">
+            <h3>Beat 2</h3>
+            <audio controls>
+                <source src="beat2.mp3" type="audio/mp3">
+                Ton navigateur ne supporte pas la balise audio.
+            </audio>
+            <button>Acheter</button>
+        </div>
+        <!-- Ajoute plus de beats ici -->
+    </section>
+
+    <section id="licences">
+        <h2>Licences</h2>
+        <p>Ici, tu peux expliquer les différents types de licences disponibles pour tes beats (par exemple, exclusives, non-exclusives).</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Si tu as des questions ou si tu veux discuter d'un projet, contacte-moi !</p>
+        <form action="mailto:tonemail@example.com" method="post" enctype="text/plain">
+            <label for="name">Nom :</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message :</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Envoyer</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Ma Boutique de Beats. Tous droits réservés.</p>
+    </footer>
+
+</body>
+</html>
